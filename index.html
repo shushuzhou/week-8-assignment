@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Dust</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <!-- Animated Slogan -->
+    <div class="slogan-container">
+        <div class="slogan-text">Illuminating Infinite Possibilities</div>
+    </div>
+    
+    <!-- Main Logo -->
+    <img src="logo.png" alt="Company Logo">
+    
+    <!-- Navigation Links -->
+    <nav>
+        <a href="https://www.stardust.co.jp/news/">NEWS</a>
+        <a href="https://www.stardust.co.jp/audition/">AUDITION</a>
+        <a href="https://x.com/STARDUSTpro_Inc">SNS</a>
+    </nav>
+</header>
+
+<!-- Image Wall Grid -->
+<div class="image-wall">
+    <!-- First Row -->
+    <div class="square" onclick="window.location.href='https://www.stardust.co.jp/talent/section3/miyaseryubi/'">
+        <img src="image 1.jpg" alt="Actor Portrait">
+        <div class="text">宫世琉弥</div>
+    </div>
+    <div class="square">
+        <img src="image 2.jpg" alt="Actor Portrait">
+        <div class="text">青木崇高</div>
+    </div>
+    <div class="square">
+        <img src="image 3.jpg" alt="Actor Portrait">
+        <div class="text">葵若菜</div>
+    </div>
+    <div class="square">
+        <img src="image 4.jpg" alt="Actor Portrait">
+        <div class="text">田边桃子</div>
+    </div>
+    <div class="square">
+        <img src="image 5.jpg" alt="Actor Portrait">
+        <div class="text">本田翼</div>
+    </div>
+    <div class="square">
+        <img src="image 6.jpg" alt="Actor Portrait">
+        <div class="text">柳乐优弥</div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="square">
+        <img src="image 7.jpg" alt="Actor Portrait">
+        <div class="text">小松菜奈</div>
+    </div>
+    <div class="square">
+        <img src="image 8.jpg" alt="Actor Portrait">
+        <div class="text">渡部笃郎</div>
+    </div>
+    <div class="square wide no-hover">
+        <img src="image 9.png" alt="Company Logo">
+        <div class="text">LOGO</div>
+    </div>
+    <div class="square">
+        <img src="image 10.jpg" alt="Actor Portrait">
+        <div class="text">本乡奏多</div>
+    </div>
+    <div class="square">
+        <img src="image 11.jpg" alt="Actor Portrait">
+        <div class="text">樱花蘑菇</div>
+    </div>
+
+    <!-- Third Row -->
+    <div class="square">
+        <img src="image 12.jpg" alt="Actor Portrait">
+        <div class="text">仲野太贺</div>
+    </div>
+    <div class="square">
+        <img src="image 13.jpg" alt="Actor Portrait">
+        <div class="text">泷本美织</div>
+    </div>
+    <div class="square">
+        <img src="image 14.jpg" alt="Actor Portrait">
+        <div class="text">城桧吏</div>
+    </div>
+    <div class="square">
+        <img src="image 15.jpg" alt="Actor Portrait">
+        <div class="text">佐野勇斗</div>
+    </div>
+    <div class="square">
+        <img src="image 16.jpg" alt="Actor Portrait">
+        <div class="text">美村里江</div>
+    </div>
+    <div class="square">
+        <img src="image 17.jpg" alt="Actor Portrait">
+        <div class="text">内野圣阳</div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer>
+    <p>Note</p>
+    <p>*The homepage design was inspired by an existing website（https://www.stardust.co.jp/）.</p>
+    <p>*The code was built from scratch by emulating its style and incorporating my coding skills, with added content and effects for enhanced visual appeal.</p>
+</footer>
+
+<!-- Back to Top Button -->
+<button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+    Back to Top
+</button>
+
+<!-- Scroll Detection Script -->
+<script>
+    window.onscroll = function() {
+        const button = document.querySelector('.back-to-top');
+        const scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+        button.classList.toggle('show', scrollPosition > 100);
+    };
+</script>
+
+</body>
+</html>
